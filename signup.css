@@ -1,0 +1,103 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+#img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 120px;
+}
+
+#register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 15px;
+}
+
+#register input {
+    background-color: #D9D9D9;
+    width: 300px;
+    height: 27px;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 5px;
+    margin: 10px;
+}
+
+#register input::placeholder {
+    color: #f59a73;
+}
+
+#register .email {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    width: 712px;
+    height: 27px;
+}
+
+#register .name {
+    float: left;
+    width: 330px;
+}
+
+#register .password {
+    float: left;
+    width: 330px;
+}
+
+#register .user {
+    float: right;
+    width: 330px;
+}
+
+#register .confpassword {
+    float: right;
+    width: 330px;
+}
+
+#signin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 20px;
+    margin-right: 440px;
+}
+
+#signin span {
+    color: #4B9093;
+    font-size: 12px;
+}
+
+#signin a {
+    color: #F59A73;
+    text-decoration: none;
+}
+
+#button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button input {
+    font-size: 18px;
+    color: #F59A73;
+    background-color:#4B9093;
+
+    margin-top: 15px;
+
+    width: 200px;
+    height: 35px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+#button .btn-cadastrar:hover {
+    color: #f59a73db;
+}
